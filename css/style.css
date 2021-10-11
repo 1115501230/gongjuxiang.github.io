@@ -4,11 +4,7 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
-  background-image:url('../bg.png');
-  background-repeat:;
-  background-color:transparent;
-  background-size:100%; 
-  background-position:center;
+  background-color:#d3f4f9;
 }
 h1 {
   padding: 50px 0;
@@ -32,6 +28,13 @@ h1 {
   justify-content: center;
   max-width: 1000px;
   margin: 10px auto 35px;
+  z-index:99;
+}
+.bg{
+  position: absolute;
+  right: -30px;
+  bottom: -70px;
+  z-index:-1;
 }
 .btn {
   position: relative;
